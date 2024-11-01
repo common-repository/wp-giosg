@@ -1,0 +1,40 @@
+= 1.0.7
+
+- Add script version setting.
+- Use text domain as per the Wordpress documentation.
+- Add action link.
+- Add admin header.
+- Add sponsor, rate and support links.
+
+= 1.0.6 =
+- Fix a bug where the basket was not marked as frozen in giosg.
+- Add plugin files to source to avoid clashes with other packages.
+
+= 1.0.5
+- Check if plugin loaded on admin_init.
+- Add changelog.
+- Add basket and decode cart response.
+
+= 1.0.4
+- Add autoloader.
+- Add composer integration.
+- Deactivate basket if woocommerce is not enabled.
+- Use wp_send_json().
+- Use admin_post action.
+- Add template for settings page.
+
+= 1.0.3
+- Fix typo in wp_ajax_no_priv action.
+- Use checked() with checkbox elements.
+
+= 1.0.2
+- Support to use chat without basket.
+- Use standard translations.
+
+= 1.0.1
+- Added support to turn of chat for anonymous users.
+- Added basic integration between woocommerce and giosg basket.
+- Code refactoring, for instance now using a bootstrap file.
+
+= 1.0.0 =
+- Initial commit.
